@@ -37,8 +37,9 @@ These results yet again confirm a risky investment in the DQ stocks for Steve's 
 ### Code comparison and it's output
 The orignal VBA code included two loops. The code in a nested loop is switching back and forth between worksheets.
 
-![Original code](./img/img_3.png)
-
+<p>
+    <img src="img/img_3.png" width="220" height="240" />
+</p>
 
 The re-factored VBA solution code was consolidated into one loop. The code stays in the same loop, gathers and stores all the data in arrays.
 
