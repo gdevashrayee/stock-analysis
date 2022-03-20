@@ -19,9 +19,9 @@ The purpose of this challenge was to help our client Steve, to analyse the green
 
 ## Results
 ### Analysis of stocks
-The images below show the comparison of a dozen green energy stocks. The values ofcomparion include three groups of data:
-*Ticker name
-*Total Daily Volume for a given year
+The images below show the comparison of a dozen green energy stocks. The values ofcomparion include three groups of data:<br />
+*Ticker name <br />
+*Total Daily Volume for a given year <br />
 *Percentage of the yearly return for each stock in the given year
 
 
