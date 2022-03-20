@@ -25,7 +25,7 @@ The images below show the comparison of a dozen green energy stocks. The values 
 * Percentage of the yearly return for each stock in the given year
 
 
-![Stock analysis 2017](./img/img_1.png)  ![Stock analysis 2018](./img/img_2.png)
+![Stock analysis 2017](./img/img_1.PNG)  ![Stock analysis 2018](./img/img_2.PNG)
 
 
 As you can see,the stocks in 2017 had a high ratio of positive returns whereas 2018 returns show a completely opposite picture.Majority of the stocks had a significant drop in its returns. The DQ stock had a return value of nearly 200% in 2017 as compared to the negative 62% in 2018. 
@@ -37,9 +37,7 @@ These results yet again confirm a risky investment in the DQ stocks for Steve's 
 ### Code comparison and it's output
 The orignal VBA code included two loops. The code in a nested loop is switching back and forth between worksheets.
 
-<p>
-    <img src="img/img_3.png" width="220" height="240" />
-</p>
+![Original code](./img/img_3.PNG)
 
 The re-factored VBA solution code was consolidated into one loop. The code stays in the same loop, gathers and stores all the data in arrays.
 
@@ -54,7 +52,7 @@ When the refactored code was executed against 2017 stock market data set, it ran
 
 
 
-![Refactored code run time](./img/img_5.png)  ![Original code run time](./img/img_7.png)
+![Refactored code run time](./img/img_5.PNG)  ![Original code run time](./img/img_7.PNG)
 
 
 
@@ -63,7 +61,7 @@ When the refactored code was executed against 2018 stock market data set, it ran
 
 
 
-![Refactored code run time](./img/img_6.png)  ![Original code run time](./img/img_8.png)
+![Refactored code run time](./img/img_6.PNG)  ![Original code run time](./img/img_8.PNG)
 
 
 I also noticed that for the same script,the execution time varied every time the code was run,however, overall the refactored script still ran faster than the original one.
