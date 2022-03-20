@@ -43,7 +43,7 @@ The orignal VBA code included two loops. The code in a nested loop is switching 
 
 The re-factored VBA solution code was consolidated into one loop. The code stays in the same loop, gathers and stores all the data in arrays.
 
-![Refactored code](./img/img_4.Png)
+![Refactored code](./img/img_4.PNG)
 
 
 Both the scripts "AllStockAnalysis" and "AllStockAnalysisRefactored" have the same output in terms of it's values for each green stock.
